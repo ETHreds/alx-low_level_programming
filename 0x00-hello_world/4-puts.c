@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - takes integers
- * Return - 0
+ * main -entry point with no integer
+ * Return: 0
  */
 int main(void)
 {

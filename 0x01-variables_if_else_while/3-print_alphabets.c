@@ -7,13 +7,13 @@ int main(void)
 {
 	char ch;
 
-	/*Uppercase*/
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	/*Lowercase*/
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	/*Lowercase*/
-	for (ch = 'a'; ch <= 'z'; ch++)
+	/*Uppercase*/
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}

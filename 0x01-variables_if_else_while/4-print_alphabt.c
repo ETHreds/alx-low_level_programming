@@ -10,12 +10,12 @@ int main(void)
 	/*print*/
 	while (alphbt <= 'z')
 	{
-		if ( alphbt != 'e' && alphbt != 'q')
+		if (alphbt != 'e' && alphbt != 'q')
 		{
 			putchar(alphbt);
 		}
 		alphbt++;
-		putchar('\n');
 	}
+	putchar('\n');
 return (0);
 }

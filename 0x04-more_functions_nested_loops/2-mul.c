@@ -10,9 +10,9 @@
 int mul(int a, int b)
 
 {
-	int product;
+	int p;
 
-	produt = a * b;
+	p = a * b;
 
-	return (product);
+	return (p);
 }

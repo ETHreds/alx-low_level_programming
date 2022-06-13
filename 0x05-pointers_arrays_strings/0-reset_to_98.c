@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 
 /**
  * reset_to_98 -takes a pointer as parameter and points it to 98

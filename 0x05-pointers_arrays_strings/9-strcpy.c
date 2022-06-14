@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- *_strcpy - update value.
+ *_strcpy- update value.
  *@dest: character array
  *@src: character array
+ *Return:character strint
  */
 
 char *_strcpy(char *dest, char *src)

@@ -5,8 +5,8 @@
 * diagonals of a square matrix of integers
 * @a: input pointer.
 * @size: size of the matrix
-* 
 */
+
 void print_diagsums(int *a, int size)
 {
 	int i, sum1 = 0, sum2 = 0;

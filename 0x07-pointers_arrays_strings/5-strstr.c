@@ -1,20 +1,27 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- **_memset- fills memeor with a constant byte
- *@s: memory area to be filled
- *@b:char to copy
- *@n:nu,ber of bytes to be filled
- *Return:pointer to memoey area s
+ **_strstr-locats a sustring
+ *@haystack: string to search int
+ *@needle:substring tolook for
+ *
+ *Return: pointer to string
+ *null if substring not found
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i;
+	int i,j;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
-		s[i] = b;
+		for (j = 0; needle[j] != '\0'; j++)
+		{
+			if (haystack[i + j] != needle[j])
+				break;
+		}
+		if (needle[j])
+			return (&haystack[i]);
 	}
-	return (s);
+	return (NULL);
 }

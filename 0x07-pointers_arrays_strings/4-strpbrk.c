@@ -1,11 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
   * _strpbrk - search a string for any of a set of bytes
   * @s: string to be scanned
   * @accept: strings containing chrs to match
-  *
-  * Return:pointer or null if no character 
+  * Return:pointer or null if no character
   */
 char *_strpbrk(char *s, char *accept)
 {

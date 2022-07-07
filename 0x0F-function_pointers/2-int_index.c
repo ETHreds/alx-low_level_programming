@@ -4,7 +4,7 @@
  *int_index- searches integer
  *@array:array to be canned
  *@size: size of the array
- *@comp: compaator function pointer
+ *@cmp: compaator function pointer
  *
  *Return: index of first similar element(on succes)
  *	0 on no matches

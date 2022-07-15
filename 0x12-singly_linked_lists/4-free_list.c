@@ -3,14 +3,14 @@
 
 /**
  *free_list-prevenrt memory leak
- *@hed:pointer to memor to be freed
+ *@head:pointer to memor to be freed
  */
 
 void free_list(list_t *head)
 {
 	list_t *temp;
 
-	while(head)
+	while (head)
 	{
 		temp = head->next;
 		free(head->str);

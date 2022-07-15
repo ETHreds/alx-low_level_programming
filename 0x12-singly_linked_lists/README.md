@@ -13,3 +13,5 @@
 100-first.c -- print sentence before the execution of theh main function
 
 101-hello_holberton.asm -- a 64-bit program in assembly that prints Hello Holberton
+
+lists.h -- header file containing defined struct of list_t

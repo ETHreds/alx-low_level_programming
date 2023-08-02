@@ -1,3 +1,1 @@
-## Search Algorithms
-
-Learn About space complexities
+# Solutions to tasks on 0x1E. C - Search Algorithms
